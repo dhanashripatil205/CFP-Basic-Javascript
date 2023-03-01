@@ -7,7 +7,7 @@ let greeting = "say Hi"; //global scope
         let hello = "say Hello instead"; //function / block scope
         console.log(hello);// "say Hello instead"
     }
-   //console.log(hello) // hello is not defined
+   console.log(hello) // hello is not defined
 
 //-----------------------------------------------------------------------------------------------------
 
@@ -18,8 +18,8 @@ greeting1 = "say Hello instead";//updated the value of greeting1
 
 //re-declarartion is not possible in same scope with same variable.
 
-// let nano = "say Hi";
-// let nano = "say Hello instead"; // error: Identifier 'nano' has already been declared.
+let nano = "say Hi";
+let nano = "say Hello instead"; // error: Identifier 'nano' has already been declared.
 
 //if the same variable is defined in different scopes, there will be no error.
 
