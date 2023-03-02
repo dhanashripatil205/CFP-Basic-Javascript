@@ -24,3 +24,17 @@ B]Let->
 
 4)Hoisting of let->let keyword are hoisted to the top of their scope and its not initialized.
 	           So if you try to use a let variable before declaration, you'll get a Reference Error.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+C]Const->
+
+1)const is used for variable declaration of constant values.
+
+2)const declarations are block scoped.
+
+3)const cannot be updated or re-declared
+
+4)Every const declaration must be initialized at the time of declaration.
+
+5)Hoisting of const->const declarations are hoisted to the top but are not initialized.
