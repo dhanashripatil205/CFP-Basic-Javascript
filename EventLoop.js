@@ -1,0 +1,1 @@
+// Event loop / Callback loop: An event loop is something that pulls stuff out of the callback queue and places it onto the callstack whenever the callstack becomes empty.
