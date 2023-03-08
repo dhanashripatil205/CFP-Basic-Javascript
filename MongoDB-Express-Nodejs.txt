@@ -1,0 +1,152 @@
+**** MongoDB--->MongoDB is a document database. It stores data in a type of JSON format called BSON.
+
+***** Methods of MongoDB-->CRUD Opration
+
+1]Create->
+
+insertOne()
+insertMany()
+
+2]Read/Retrieve
+find()
+findOne()
+
+3]Update
+
+updateOne()
+updateMany()
+
+4]Delete
+
+deleteOne()
+deleteMany()
+
+
+***** MongoDB Data API
+
+1]Find a Single Document Endpoint
+
+POST Base_URL/findOne
+
+2]Find Multiple Documents Endpoint
+
+POST Base_URL/find
+
+3]Insert a Single Document Endpoint
+
+POST Base_URL/insertOne
+
+4]Insert Multiple Documents Endpoint
+
+POST Base_URL/insertMany
+
+5]Update a Single Document Endpoint
+
+POST Base_URL/updateOne
+
+6]Update Multiple Documents Endpoint
+
+POST Base_URL/updateMany
+
+7]Delete a Single Document Endpoint
+
+POST Base_URL/deleteOne
+
+8]Delete Multiple Documents Endpoint
+
+POST Base_URL/deleteMany
+
+9]Aggregate Documents Endpoint
+
+POST Base_URL/aggregate
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+***** Mongooes->It help us to established the connection between nodejs & mongodb.
+
+-Mongoose is an Object Data Modeling(ODM) library for MongoDB & Node.js.It manages the relationship between data ,provides schema validation & is used to translate between objects in code & the representation of those objects in MongoDB.
+
+***** Methods of Mongooes->
+
+Mongoose()
+Mongoose.prototype.Aggregate()
+Mongoose.prototype.CastError()
+Mongoose.prototype.Collection()
+Mongoose.prototype.Connection()
+Mongoose.prototype.Date
+Mongoose.prototype.Document()
+Mongoose.prototype.DocumentProvider()
+Mongoose.prototype.Error()
+Mongoose.prototype.Mixed
+Mongoose.prototype.Model()
+Mongoose.prototype.Mongoose()
+Mongoose.prototype.Number
+Mongoose.prototype.ObjectId
+Mongoose.prototype.Query()
+Mongoose.prototype.STATES
+Mongoose.prototype.Schema()
+Mongoose.prototype.SchemaType()
+Mongoose.prototype.SchemaTypeOptions()
+Mongoose.prototype.SchemaTypes
+Mongoose.prototype.Types
+Mongoose.prototype.VirtualType()
+Mongoose.prototype.mongo
+Mongoose.prototype.now()
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+***** schema-A mongoose schema defines the structure of the document,default values,validors,etc.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+***** Node js->
+
+Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+***** Express js->
+
+Express.js is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.
+
+***** Express.json->
+
+The express.json() function is a built-in middleware function in Express. It parses incoming requests with JSON payloads and is based on body-parser.
+
+Syntax:
+
+express.json( [options] )
+
+Parameters: The options parameter have various property like inflate, limit, type, etc.
+
+Return Value: It returns an Object.
+
+***** Why Express ?
+
+1)Develops Node.js web applications quickly and easily.
+2)It’s simple to set up and personalise.
+3)Allows you to define application routes using HTTP methods and URLs.
+4)Includes a number of middleware modules that can be used to execute additional requests and responses activities.
+5)Simple to interface with a variety of template engines, including Jade, Vash, and EJS.
+6)Allows you to specify a middleware for handling errors.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+***** Need of Routing->
+
+Routing refers to determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, and so on).
+
+Each route can have one or more handler functions, which are executed when the route is matched.
+
+Route definition takes the following structure:
+
+app.METHOD(PATH, HANDLER)
+Where:
+
+app is an instance of express.
+METHOD is an HTTP request method, in lowercase.
+PATH is a path on the server.
+HANDLER is the function executed when the route is matched.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
